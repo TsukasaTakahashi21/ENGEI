@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+
+# Local environment files
+.local/
+
+# Composer dependencies
+src/vendor/
+
+# System files
+.DS_Store
+Thumbs.db
