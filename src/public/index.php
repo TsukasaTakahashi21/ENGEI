@@ -215,26 +215,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
           >
             <div class="p-person__wantedly"></div>
           </a>
-          <img
-            src="./assets/images/twitter-text.svg"
-            alt="ツイッターも日々更新中。代表の私生活や会社の日常を配信しています。"
-            class="p-person__twitterText"
-          />
-          <div class="p-person__twitter">
-            <a
-              class="twitter-timeline"
-              data-tweet-limit="3"
-              data-chrome="noheader nofooter"
-              data-height="100%"
-              data-width="100%"
-              href="https://twitter.com/engei_engineers?ref_src=twsrc%5Etfw"
-              >Tweets by engei_engineers</a
-            >
-            <script
-              async
-              src="https://platform.twitter.com/widgets.js"
-            ></script>
-          </div>
+          
           <!-- スクロールで左から挿入 -->
           <div class="p-sliderBottomLeft show"></div>
           <!-- スクロールで右から挿入 -->
