@@ -189,37 +189,11 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
               </p>
             </li>
           </ul>
-          <div class="p-person__introduction"></div>
-          <a href="#contact">
-            <img
-              src="./assets/images/contact_btn.png"
-              alt="今すぐお問い合わせ"
-              class="p-person__contact"
-            />
-          </a>
-          <a
-            href="https://www.wantedly.com/companies/company_6206023"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="./assets/images/recruitment.svg"
-              alt="wantedly採用情報はこちら"
-              class="p-person__recruitment"
-            />
-          </a>
-          <a
-            href="https://www.wantedly.com/companies/company_6206023"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div class="p-person__wantedly"></div>
-          </a>
-          
           <!-- スクロールで左から挿入 -->
           <div class="p-sliderBottomLeft show"></div>
           <!-- スクロールで右から挿入 -->
           <div class="p-sliderBottomRight show"></div>
+          <div class="p-person__introduction"></div>  
         </section>
         <!-- OUR VISION -->
         <div id="ourVision">
@@ -262,17 +236,10 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                   </p>
                 </div>
               </li>
+
+              <button id="wantedly-btn" class="wantedly-btn">Wantedly 採用ページへ</button>
+
             </ul>
-            <a
-              href="https://www.wantedly.com/companies/company_6206023"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="./assets/images/wantedly_btn.png"
-                alt="wantedly企業ページへ"
-                class="p-vision__wantedly"
-              />
             </a>
           </section>
           <!-- WHAT WE DO -->
@@ -305,19 +272,6 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                     広告代理店、WEB開発、EC運営、翻訳業を経た代表と<br />
                     ENGEIメンバーによる多様かつ独自のサービス展開も視野に。
                   </p>
-                </li>
-                <li>
-                  <a
-                    href="https://www.wantedly.com/companies/company_6206023"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src="./assets/images/wantedly_btnWhite.png"
-                      alt="wantedly企業ページへ"
-                      class="p-businessContent__wantedly"
-                    />
-                  </a>
                 </li>
               </ul>
               <div class="p-businessContent__cactus">
@@ -364,7 +318,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                   <tr>
                     <th class="p-company__detail--header">所在地</th>
                     <td class="p-company__detail--data">
-                      〒108-0073<br />
+                      〒103-0073<br />
                       東京都中央区日本橋浜町2-55-2<br />
                       BESPOKE APARTMENTS 日本橋浜町3F<br />
                       都営新宿線「浜町」駅 A2出口より徒歩5分<br />
@@ -411,7 +365,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                     <tr>
                       <th class="p-company__introduction--header">経歴</th>
                       <td class="p-company__introduction--data">
-                        コーヒー屋店長→アパレル→広告代理、<br />
+                        コーヒー屋店長→アパレル広報→外資系広告代理店営業、<br />
                         副業でブログ、EC、翻訳も行う
                       </td>
                     </tr>
@@ -426,19 +380,8 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                     </tr>
                   </table>
                 </div>
-                <img
-                  src="./assets/images/detail.svg"
-                  alt="詳細はこちら"
-                  class="p-company__link"
-                />
-                <a
-                  href="https://www.wantedly.com/companies/company_6206023"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="p-company__wantedly"></div>
-                </a>
               </div>
+                <button id="wantedly-btn" class="wantedly-btn">Wantedly 採用ページへ</button>
             </section>
           </div>
           <!-- CONTACT -->

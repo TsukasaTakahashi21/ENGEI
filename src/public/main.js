@@ -179,6 +179,18 @@ $(function () {
       });
   });
 
+  $(document).ready(function () {
+    $(document).on('click', '#wantedly-btn', function () {
+      $(this).addClass('active');
+
+      setTimeout(() => {
+        $(this).removeClass('active');
+      }, 300);
+
+      window.open('https://www.wantedly.com/companies/company_6206023', '_blank', 'noopener,noreferrer');
+    });
+  });
+
   $(document).on('contextmenu', function (e) {
     return false;
   });
