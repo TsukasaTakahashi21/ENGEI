@@ -237,7 +237,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                 </div>
               </li>
 
-              <button id="wantedly-btn" class="wantedly-btn">Wantedly 採用ページへ</button>
+              <button id="wantedly-btn" class="wantedly-btn">採用ページへ</button>
 
             </ul>
             </a>
@@ -381,7 +381,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
                   </table>
                 </div>
               </div>
-                <button id="wantedly-btn" class="wantedly-btn">Wantedly 採用ページへ</button>
+                <button id="wantedly-btn" class="wantedly-btn">採用ページへ</button>
             </section>
           </div>
           <!-- CONTACT -->

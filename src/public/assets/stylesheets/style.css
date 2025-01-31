@@ -819,9 +819,8 @@ body {
 /* ボタンのスタイル */
 .wantedly-btn {
   display: inline-block;
-  width: 30%;
-  padding: 20px;
-  font-size: 20px;
+  padding: 30px;
+  font-size: 25px;
   color: #fff; 
   margin: 100px auto 0 auto;;
   background-color: #78AA92; 
