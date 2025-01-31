@@ -1541,6 +1541,7 @@ body {
   }
 
   .wantedly-btn {
+    font-family: "Helvetica Rounded", "Hiragino Maru Gothic Pro", "Helvetica Rounded", sans-serif;
     display: inline-block;
     width: 300px;
     padding: 10px;
