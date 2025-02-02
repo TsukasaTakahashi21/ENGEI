@@ -193,7 +193,6 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
           <div class="p-sliderBottomLeft show"></div>
           <!-- スクロールで右から挿入 -->
           <div class="p-sliderBottomRight show"></div>
-          <div class="p-person__introduction"></div>  
         </section>
         <!-- OUR VISION -->
         <div id="ourVision">

@@ -818,6 +818,7 @@ body {
 
 /* ボタンのスタイル */
 .wantedly-btn {
+  width: 600px;
   display: inline-block;
   padding: 30px;
   font-size: 25px;
@@ -978,7 +979,7 @@ body {
   .p-person {
     width: 100%;
     background-color: #f9f1e9;
-    height: 1400px;
+    height: 1300px;
     position: relative;
     text-align: center;
   }
