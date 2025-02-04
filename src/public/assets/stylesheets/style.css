@@ -380,7 +380,7 @@ body {
   color: #666;
   position: absolute;
   bottom: 0px;
-  left: 55%;
+  left: 54%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   text-align: center;
@@ -393,7 +393,7 @@ body {
   color: #666;
   position: absolute;
   bottom: 0px;
-  left: 55%;
+  left: 51%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   text-align: center;
@@ -406,7 +406,7 @@ body {
   color: #666;
   position: absolute;
   bottom: 0px;
-  left: 55%;
+  left: 54%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   text-align: center;
@@ -463,7 +463,7 @@ body {
   height: 100px;
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 55%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin-left: 230px;
@@ -476,7 +476,7 @@ body {
   height: 100px;
   position: absolute;
   top: 150px;
-  left: 50%;
+  left: 55%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin-left: 100px;
@@ -489,7 +489,7 @@ body {
   height: 100px;
   position: absolute;
   top: 300px;
-  left: 50%;
+  left: 55%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin-left: 130px;
@@ -818,15 +818,17 @@ body {
 
 /* ボタンのスタイル */
 .wantedly-btn {
+  font-weight: bold;
+  font-family: "Helvetica Rounded", "Hiragino Maru Gothic Pro", "Helvetica Rounded", sans-serif;
   width: 600px;
   display: inline-block;
-  padding: 30px;
-  font-size: 25px;
+  padding: 20px;
+  font-size: 35px;
   color: #fff; 
   margin: 100px auto 0 auto;;
   background-color: #78AA92; 
   border: none;
-  border-radius: 30px;
+  border-radius: 40px;
   cursor: pointer;
   transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 5px -5px 0px 0px rgb(229,150,127); 
@@ -1541,7 +1543,6 @@ body {
   }
 
   .wantedly-btn {
-    font-family: "Helvetica Rounded", "Hiragino Maru Gothic Pro", "Helvetica Rounded", sans-serif;
     display: inline-block;
     width: 300px;
     padding: 10px;
